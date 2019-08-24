@@ -22,7 +22,7 @@
   width: 424px;
   position: relative;
 }
-input.email {
+#mc_embed_signup input.email {
   width: 280px;
   position: absolute;
   top: 0px;
@@ -38,10 +38,10 @@ input.email {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-div.clear {
+#mc_embed_signup div.clear {
   display: inline-block;
 }
-div.clear input.button {
+#mc_embed_signup div.clear input.button {
   width: 138px;
   position: absolute;
   top: 0px;
