@@ -123,3 +123,56 @@ input.button:hover {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+
+@media only screen and (max-width: 720px) {
+  .container {
+    padding: 0 25px;
+  }
+  .punchline {
+    font-size: 24px;
+  }
+
+  #mc_embed_signup {
+    width: 100%;
+  }
+  #mc_embed_signup input.email {
+    display: block;
+    left: 0px;
+    width: 100%;
+  }
+  #mc_embed_signup div.clear {
+    display: block;
+  }
+  #mc_embed_signup div.clear input.button {
+    top: 56px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .grey-bar {
+    background-color: white;
+  }
+
+  .icon-bar {
+    margin-top: 10rem;
+    left: calc(50% - 145px);
+  }
+  .app-primary {
+    display: block;
+  }
+  .app-secondary {
+    display: block;
+    padding-top: 20px;
+  }
+
+  .features {
+    margin-top: 3rem;
+  }
+  .feature {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}
