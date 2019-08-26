@@ -1,6 +1,6 @@
 .container {
   margin: 3rem auto 0 auto;
-  max-width: 740px;
+  max-width: 690px;
 }
 
 .logo {
@@ -10,9 +10,10 @@
 }
 
 .punchline {
-  font-size: 32px;
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -58,9 +59,67 @@
   border: none;
   -webkit-appearance: none;
 }
+input.button:hover {
+  cursor: pointer;
+}
+
+.grey-bar {
+  position: absolute;
+  left: 0px;
+  height: 320px;
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 14rem;
+  background-color: #f4f4f4;
+}
+.icon-bar {
+  margin-top: 7rem;
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 300px);
+}
+.app-primary {
+  vertical-align: top;
+  width: 290px;
+  display: inline-block;
+}
+.app-secondary {
+  padding-top: 60px;
+  width: 290px;
+  display: inline-block;
+}
+
+.features {
+  margin-top: 6rem;
+}
+.feature {
+  width: 29%;
+  display: inline-block;
+  margin: 0 2%;
+}
+.feature-icon {
+  display: block;
+  margin: auto;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.feature-title {
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.feature-description {
+  font-size: 16px;
+  color: #69636b;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
 
 .footer-icon {
   margin: auto;
   display: block;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
