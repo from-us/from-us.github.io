@@ -43,7 +43,7 @@
   display: inline-block;
 }
 #mc_embed_signup div.clear input.button {
-  width: 138px;
+  width: 166px;
   position: absolute;
   top: 0px;
   left: 286px;
@@ -73,7 +73,7 @@ input.button:hover {
   background-color: #f4f4f4;
 }
 .icon-bar {
-  margin-top: 7rem;
+  margin-top: 140px;
   position: relative;
   display: inline-block;
   left: calc(50% - 300px);
@@ -90,7 +90,7 @@ input.button:hover {
 }
 
 .features {
-  margin-top: 6rem;
+  margin-top: 120px;
 }
 .feature {
   width: 29%;
@@ -120,13 +120,13 @@ input.button:hover {
 .footer-icon {
   margin: auto;
   display: block;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
 
 @media only screen and (max-width: 720px) {
   .container {
-    padding: 0 25px;
+    padding: 0 40px;
   }
   .punchline {
     font-size: 24px;
@@ -150,19 +150,17 @@ input.button:hover {
   }
 
   .grey-bar {
-    background-color: white;
+    margin-top: 240px;
   }
-
   .icon-bar {
     margin-top: 10rem;
-    left: calc(50% - 145px);
+    left: calc(50% - 155px);
   }
   .app-primary {
-    display: block;
+    width: 310px;
   }
   .app-secondary {
-    display: block;
-    padding-top: 20px;
+    display: none;
   }
 
   .features {
@@ -171,8 +169,12 @@ input.button:hover {
   .feature {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 190px;
     margin: auto;
     margin-bottom: 40px;
+  }
+
+  .footer-icon {
+    margin-top: 80px;
   }
 }
