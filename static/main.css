@@ -28,7 +28,7 @@
   position: absolute;
   top: 0px;
   display: inline-block;
-  height: 48px;
+  height: 49px;
   padding: 12px;
   font-size: 18px;
   border-radius: 8px;
@@ -52,7 +52,7 @@
   padding: 11px 24px;
   color: white;
   font-size: 20px;
-  height: 48px;
+  height: 49px;
   font-family: 'IBM Plex Sans', sans-serif;
   /* Overwrite default */
   outline: none;
